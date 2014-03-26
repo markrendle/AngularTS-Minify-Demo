@@ -1,0 +1,5 @@
+bower
+build
+js
+node_modules
+src/*.js
