@@ -32,7 +32,6 @@ module.exports = function (grunt) {
                     sourceMap: true,
                     sourceMapIn: 'build/app.js.map', // Use the map from TypeScript
                     compress: {
-                        angular: true, // Process the @ngInject slugs
                         global_defs: uglifyGlobals,
                         screw_ie8: true, // Seriously, die
                         drop_console: !uglifyDebug // Remove console.* statements for non-debug builds
